@@ -38,7 +38,7 @@ export default {
       drawer: false,
       fixed: false,
       miniVariant: false,
-      title: 'Vuetify.js'
+      title: 'Auction House'
     }
   }
 }
