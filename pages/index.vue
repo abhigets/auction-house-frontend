@@ -1,8 +1,8 @@
 <template>
   <v-layout
-    column
-    justify-center
+    align-content-space-around
     align-center
+    justify-space-around
   >
     <v-flex
       xs12
@@ -10,21 +10,17 @@
       md6
     >
       <div class="text-center">
-        <logo />
-        <vuetify-logo />
+        <auction-box id='auction-box'/>
       </div>
     </v-flex>
   </v-layout>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
+import AuctionBox from '~/components/AuctionBox.vue'
 export default {
   components: {
-    Logo,
-    VuetifyLogo
+    AuctionBox,
   }
 }
 </script>
