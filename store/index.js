@@ -12,10 +12,6 @@ export const actions = {
 
     async send({state}, payload){
         const result = await this.$axios.post('http://localhost:8080/process', payload)
-        // .then(function(response) {
-        //     console.log(response.data)
-        //     return response.data
-        // })
         return result.data
     }
 }
